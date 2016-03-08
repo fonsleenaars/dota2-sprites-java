@@ -8,9 +8,9 @@ Grab your own API key here: [steamcommunity.com/dev/apikey](http://steamcommunit
 You will need your API key in order to fetch the hero & item data from the API.
 
 If you make any changes to the project in your IDE, build & run it, otherwise just enter the target directory in a command prompt and enter the following command to run the project. 
-> java -jar Dota2Sprites-1.0.jar <your-steam-api-key>
+> java -jar Dota2Sprites-1.0.jar your-steam-api-key
 
 If no arguments are specified after the JAR name, it will put the sprites and CSS into your user.home/dota2sprites directory (C:/User/<username>/dota2sprites) on windows.
 
 Otherwise you can specify an output directory like so:
-> java -jar Dota2Sprites-1.0.jar <your-steam-api-key> <output-directory>
+> java -jar Dota2Sprites-1.0.jar your-steam-api-key output-directory
