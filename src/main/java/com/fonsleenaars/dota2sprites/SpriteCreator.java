@@ -141,7 +141,7 @@ public class SpriteCreator {
                     SPRITE_WIDTH,
                     SPRITE_HEIGHT);
 
-                int i = 0;
+                int i = 1;
                 for (Dota2Item item : items) {
                     BufferedImage itemImage;
                     try {
